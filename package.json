@@ -2,7 +2,7 @@
   "name": "jack-cool-portfolio",
   "version": "1.0.0",
   "description": "Jack Cool's Personal Portfolio Website",
-  "homepage": "https://jackkoo1207.github.io/portfolio-website/",
+  "homepage": "https://jackkoo1207.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
