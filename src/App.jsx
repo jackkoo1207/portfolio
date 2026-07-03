@@ -9,7 +9,7 @@ function Home() {
   return (
     <Layout title="Home">
       <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'center' }}>
-        <img src="/portfolio-website/icon.png" alt="Jack Cool" style={{ 
+        <img src="/portfolio/icon.png" alt="Jack Cool" style={{ 
           height: '200px', 
           width: '200px', 
           borderRadius: '50%', 
@@ -82,7 +82,7 @@ function AboutMe() {
         {/* Header: Photo + Greeting */}
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px', flexWrap: 'wrap', marginBottom: '36px' }}>
           <div>
-            <img src="/portfolio-website/icon.png" alt="Jack Cool" style={{ 
+            <img src="/portfolio/icon.png" alt="Jack Cool" style={{ 
               height: '200px', 
               width: '200px', 
               borderRadius: '50%', 
@@ -209,28 +209,28 @@ function AboutMe() {
           <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
             <ContactIcon 
               href="mailto:hykoo@connect.ust.hk" 
-              src="/portfolio-website/HKUST.png" 
+              src="/portfolio/HKUST.png" 
               alt="HKUST Email" 
             />
             <ContactIcon 
               href="https://www.instagram.com/jackkoo2.0/" 
-              src="/portfolio-website/instagram.png" 
+              src="/portfolio/instagram.png" 
               alt="Instagram" 
             />
             <ContactIcon 
               href="https://github.com/jackkoo1207" 
-              src="/portfolio-website/github.png" 
+              src="/portfolio/github.png" 
               alt="GitHub" 
             />
             <ContactIcon 
               href="https://www.linkedin.com/in/koo-ho-yin-7a1176210/" 
-              src="/portfolio-website/Linklin.png" 
+              src="/portfolio/Linklin.png" 
               alt="LinkedIn" 
             />
           </div>
           <div style={{ marginTop: '20px' }}>
             <a
-              href="/portfolio-website/CV_Koo_Ho_Yin.pdf"
+              href="/portfolio/CV_Koo_Ho_Yin.pdf"
               download
               style={{
                 display: 'inline-flex',
@@ -272,7 +272,7 @@ function AboutMe() {
 function Education() {
   const education = [
     {
-      logo: '/portfolio-website/HKUST2.png',
+      logo: '/portfolio/HKUST2.png',
       logoWidth: '100%',
       school: 'Hong Kong University of Science and Technology',
       degree: "Bachelor's Degree",
@@ -286,7 +286,7 @@ function Education() {
       color: '#6c5ce7',
     },
     {
-      logo: '/portfolio-website/NTU.png',
+      logo: '/portfolio/NTU.png',
       logoWidth: '90%',
       school: 'Nanyang Technological University',
       degree: 'Summer Exchange',
@@ -297,7 +297,7 @@ function Education() {
       color: '#0984e3',
     },
     {
-      logo: '/portfolio-website/FUB.png',
+      logo: '/portfolio/FUB.png',
       logoWidth: '90%',
       school: 'Freie Universität Berlin',
       degree: 'Winter Exchange',
@@ -549,7 +549,7 @@ const projectItems = [
     title: 'AI Weather Forecaster Chatbot',
     description: 'RAG chatbot using Firebase, MongoDB, PineCone, and Deepseek V4-flash for weather and visibility prediction queries.',
     href: '#!',
-    image: '/portfolio-website/Squid.png',
+    image: '/portfolio/Squid.png',
     fullDescription: 'Built an AI-powered weather forecasting chatbot for the Hong Kong Observatory (HKO) that answers queries about weather conditions and visibility predictions using a Retrieval-Augmented Generation (RAG) architecture.',
     details: [
       'Developed a RAG chatbot using Firebase for web hosting and backend infrastructure',
@@ -562,9 +562,9 @@ const projectItems = [
     role: 'Website Developer Intern',
     period: '2026 Jan - July',
     gallery: [
-      { src: '/portfolio-website/Squid.png', width: 800, height: 640, alt: 'Weather Chatbot Interface' },
-      { src: '/portfolio-website/Squid2.png', width: 800, height: 640, alt: 'Upload Interface' },
-      { src: '/portfolio-website/Squid3.png', width: 800, height: 400, alt: 'Upload Interface' },
+      { src: '/portfolio/Squid.png', width: 800, height: 640, alt: 'Weather Chatbot Interface' },
+      { src: '/portfolio/Squid2.png', width: 800, height: 640, alt: 'Upload Interface' },
+      { src: '/portfolio/Squid3.png', width: 800, height: 400, alt: 'Upload Interface' },
     ],
   },
   {
@@ -572,7 +572,7 @@ const projectItems = [
     title: 'RoboMaster Robotics Team',
     description: 'Champion team member for CAD design of robotic cars, collaborating with software and hardware teams at HKUST.',
     href: '#!',
-    image: '/portfolio-website/CAD.png',
+    image: '/portfolio/CAD.png',
     fullDescription: 'Joined the HKUST RoboMaster robotics team as a member specializing in CAD design for competitive robotic systems. Contributed to building and optimizing the mechanical design of robotic cars used in national-level competitions.',
     details: [
       'Joined as a member of the robotics team called RoboMaster',
@@ -584,8 +584,8 @@ const projectItems = [
     role: 'Robotics Team Member',
     period: '2022 - 2023',
     gallery: [
-      { src: '/portfolio-website/CAD.png', width: 700, height: 300, alt: 'CAD Design of Robotic Car' },
-      { src: '/portfolio-website/Robomaster.jpg', width: 700, height: 400, alt: 'RoboMaster Team Photo' },
+      { src: '/portfolio/CAD.png', width: 700, height: 300, alt: 'CAD Design of Robotic Car' },
+      { src: '/portfolio/Robomaster.jpg', width: 700, height: 400, alt: 'RoboMaster Team Photo' },
     ],
   },
   {
@@ -593,7 +593,7 @@ const projectItems = [
     title: 'Robotic Swarms Simulation via Reinforcement Learning',
     description: 'Simulating collective motion of robotic swarms using multi-agent reinforcement learning.',
     href: '#!',
-    image: '/portfolio-website/col.png',
+    image: '/portfolio/col.png',
     fullDescription: 'Trained a supervised multi-agent reinforcement learning model based on zebrafish behavioral video data to simulate collective motion in robotic swarms. Collaborated with robotics engineers to develop a physical robotic fish that applies the learned model.',
     details: [
       'Trained a supervised multi-agent reinforcement learning model based on zebrafish video data',
@@ -604,8 +604,8 @@ const projectItems = [
     role: 'Research Assistant',
     period: '2025 - 2026',
     gallery: [
-      { src: '/portfolio-website/collective.png', width: 700, height: 200, alt: 'Zebrafish Collective Behavior Data' },
-   { src: '/portfolio-website/fish.png', width: 300, height: 200, alt: 'Robotic fish' },
+      { src: '/portfolio/collective.png', width: 700, height: 200, alt: 'Zebrafish Collective Behavior Data' },
+   { src: '/portfolio/fish.png', width: 300, height: 200, alt: 'Robotic fish' },
     ],
   },
 ];
@@ -961,7 +961,7 @@ function ProjectDetail() {
 
 function App() {
   return (
-    <Router basename="/portfolio-website">
+    <Router basename="/portfolio">
       <div style={{ 
         minHeight: '100vh', 
         backgroundColor: 'white',
@@ -985,7 +985,7 @@ function App() {
           }
         `}</style>
         <div style={{ height: '130px', overflow: 'hidden', textAlign: 'center', margin: 0, padding: 0 }}>
-          <img src="/portfolio-website/banner.gif" alt="Banner" style={{ width: '100%', height: '130px', objectFit: 'cover', display: 'block' }} />
+          <img src="/portfolio/banner.gif" alt="Banner" style={{ width: '100%', height: '130px', objectFit: 'cover', display: 'block' }} />
         </div>
         <main>
           <Routes>
