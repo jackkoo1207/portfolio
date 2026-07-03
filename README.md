@@ -66,7 +66,11 @@ The website is fully customizable:
 The site is configured for automatic deployment to GitHub Pages:
 
 ```bash
+git add -A
+git commit -m "Clean up template files and old workflow"
+git push origin main
 npm run deploy
+    
 ```
 
 This will build the project and push to the `gh-pages` branch.
