@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://jackkoo1207.github.io/portfolio/sitemap.xml
